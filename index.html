@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartinha Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cartinha Digital!</h1>
+    <form id="formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+      <label for="relato">Relato das Férias:</label>
+      <textarea id="relato" required></textarea>
+      <button id="enviar">Enviar</button>
+    </form>
+    <div id="cartinha" style="display: none;">
+      <h2>Cartinha Digital!</h2>
+      <p id="mensagem"></p>
+      <p id="assinatura"></p>
+      <button id="editar">Editar</button>
+      <button id="limpar">Limpar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
